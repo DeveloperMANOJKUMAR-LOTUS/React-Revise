@@ -16,7 +16,7 @@ export class Construct extends Component {
         <p className='text-dark'>Constructor works only in the react class component . </p>
         <p className='text-dark'> Constructor is rendered before the render function ..</p>
 
-        <h3>My Name is : {this.state.name}</h3>
+        <h3>My Name is :{this.state.name}</h3>
 
 
       </div>
