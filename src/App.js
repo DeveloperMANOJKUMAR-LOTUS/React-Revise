@@ -8,6 +8,8 @@ import Button from './components/sendData/Button';
 import ButtonProp from './components/sendData/ButtonProp';
 import Construct from './components/constructor/Construct';
 import Post from './components/constructor/Post';
+import Header from './components/Header';
+import TradiRoute from './components/Router/TradiRoute';
 
 
 function App() {
@@ -19,8 +21,11 @@ function App() {
       <ButtonProp content="This is a button prop Example"></ButtonProp> */}
 
       {/* <Construct ></Construct> */}
+      <Header />
       <Post />
 
+      <TradiRoute />
+  
     </div>
   );
 }
