@@ -10,22 +10,30 @@ import Construct from './components/constructor/Construct';
 import Post from './components/constructor/Post';
 import Header from './components/Header';
 import TradiRoute from './components/Router/TradiRoute';
+import Alert from './components/Bootstrap/Alert';
+import Accordian from './components/Bootstrap/Accordian';
 
 
 function App() {
   return (
-    <div className="App">
+    <div >
       {/* <FuncComp></FuncComp>
       <Cls></Cls> */}
       {/* <Button content="Hello World content"></Button>
       <ButtonProp content="This is a button prop Example"></ButtonProp> */}
 
       {/* <Construct ></Construct> */}
-      <Header />
+      {/* <Header />
       <Post />
 
-      <TradiRoute />
-  
+      <TradiRoute /> */}
+      {/* BOOTSTRAP COMPONENTS ...
+      <Alert />
+
+       */}
+       <Accordian />
+       <Alert />
+      
     </div>
   );
 }
