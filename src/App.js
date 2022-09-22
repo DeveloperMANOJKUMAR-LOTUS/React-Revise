@@ -33,6 +33,7 @@ function App() {
        */}
        <Accordian />
        <Alert />
+       <Button />
       
     </div>
   );
