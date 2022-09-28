@@ -12,6 +12,7 @@ import Header from './components/Header';
 import TradiRoute from './components/Router/TradiRoute';
 import Alert from './components/Bootstrap/Alert';
 import Accordian from './components/Bootstrap/Accordian';
+import Badge from './components/Bootstrap/Badge';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
        <Accordian />
        <Alert />
        <Button />
+       <Badge />
       
     </div>
   );
