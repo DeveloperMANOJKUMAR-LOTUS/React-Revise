@@ -13,6 +13,8 @@ import TradiRoute from './components/Router/TradiRoute';
 import Alert from './components/Bootstrap/Alert';
 import Accordian from './components/Bootstrap/Accordian';
 import Badge from './components/Bootstrap/Badge';
+import BreadCrumb from './components/Bootstrap/BreadCrumb';
+import Card from './components/Bootstrap/Card';
 
 
 function App() {
@@ -36,6 +38,9 @@ function App() {
        <Alert />
        <Button />
        <Badge />
+       <BreadCrumb />
+       <br />
+       <Card />
       
     </div>
   );
