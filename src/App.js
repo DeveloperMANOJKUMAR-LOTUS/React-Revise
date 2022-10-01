@@ -15,6 +15,7 @@ import Accordian from './components/Bootstrap/Accordian';
 import Badge from './components/Bootstrap/Badge';
 import BreadCrumb from './components/Bootstrap/BreadCrumb';
 import Card from './components/Bootstrap/Card';
+import OffCanvas from './components/Bootstrap/OffCanvas';
 
 
 function App() {
@@ -34,13 +35,15 @@ function App() {
       <Alert />
 
        */}
-       <Accordian />
+       {/* <Accordian />
        <Alert />
        <Button />
        <Badge />
        <BreadCrumb />
        <br />
-       <Card />
+       <Card /> */}
+       <Header />
+       <OffCanvas />
       
     </div>
   );
