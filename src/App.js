@@ -16,6 +16,7 @@ import Badge from './components/Bootstrap/Badge';
 import BreadCrumb from './components/Bootstrap/BreadCrumb';
 import Card from './components/Bootstrap/Card';
 import OffCanvas from './components/Bootstrap/OffCanvas';
+import Collapse from './components/Bootstrap/Collapse';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
        <Card /> */}
        <Header />
        <OffCanvas />
+       <Collapse />
       
     </div>
   );
