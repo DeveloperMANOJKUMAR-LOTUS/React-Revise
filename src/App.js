@@ -17,6 +17,7 @@ import BreadCrumb from './components/Bootstrap/BreadCrumb';
 import Card from './components/Bootstrap/Card';
 import OffCanvas from './components/Bootstrap/OffCanvas';
 import Collapse from './components/Bootstrap/Collapse';
+import Toasts from './components/Bootstrap/Toasts';
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
        <Header />
        <OffCanvas />
        <Collapse />
+       <Toasts />
       
     </div>
   );
