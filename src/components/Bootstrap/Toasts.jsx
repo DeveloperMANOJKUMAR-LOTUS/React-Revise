@@ -3,27 +3,31 @@ import React from 'react'
 function Toasts() {
   return (
     <div>
-        <div>
-  {/* Flexbox container for aligning the toasts */}
-  <div aria-live="polite" aria-atomic="true" className="d-flex justify-content-center align-items-center" style={{minHeight: 200}}>
-    {/* Then put toasts within */}
-    <div className="toast" role="alert" aria-live="assertive" aria-atomic="true">
-      <div className="toast-header">
-        <img src className="rounded me-2" alt="{4:Bootstrap}" />
-        <strong className="me-auto">4:Bootstrap</strong>
-        <small>5:11 mins ago</small>
-        <button type="button" className="ms-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-          <span aria-hidden="true">×</span>
-        </button>
-      </div>
-      <div className="toast-body">
-        Hello, world! This is a toast message.
-      </div>
+      <div className="toast-container position-static">
+  <div className="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div className="toast-header">
+      
+      <strong className="me-auto">Bootstrap</strong>
+      <small className="text-muted">just now</small>
+      <button type="button" className="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div className="toast-body">
+      See? Just like this.
     </div>
   </div>
-  
 
+  <div className="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div className="toast-header">
+    
+      <strong className="me-auto">Bootstrap</strong>
+      <small className="text-muted">2 seconds ago</small>
+      <button type="button" className="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
+    <div className="toast-body">
+      Heads up, toasts will stack automatically
+    </div>
+  </div>
+</div>
     </div>
   )
 }

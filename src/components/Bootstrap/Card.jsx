@@ -10,7 +10,7 @@ function Card() {
     <h4 className="card-title">Card Title ...</h4>
     <p className="card-text">Hello Everyone . This is a  BOdy of the card  ..</p>
   </div>
-</div>
+</div>  
 
     </div>
   )
